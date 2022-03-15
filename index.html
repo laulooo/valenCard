@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Valentine Day Card</title>
+        <!-- font -->
+        <link rel="stylesheet" href="src/css/font.css" />
+        <!-- css reset from main website -->
+        <link rel="stylesheet" href="src/css/reset.css" />
+        <!-- my css -->
+        <link rel="stylesheet" href="src/css/style.css" />
+    </head>
+    <body>
+        <h1>Buat Kartu Ucapan Valentine kepada orang terkasih!</h1>
+        <div class="container">
+            <!-- form input -->
+            <div class="form">
+                <!-- receiver -->
+                <label for="r">Kepada : </label>
+                <input type="text" name="r" id="r" />
+                <!-- message -->
+                <label for="m">Pesan : </label>
+                <textarea name="m" id="m" cols="30" rows="10"></textarea>
+                <!-- sender -->
+                <label for="s">Pengirim : </label>
+                <input type="text" name="s" id="s" />
+                <!-- submit -->
+                <button type="submit" id="submit" class="submit">Lihat Hasil</button>
+                <!-- copy -->
+                <p>Salin Link dan bagikan kepada orang terkasih</p>
+                <!-- url -->
+                <input type="text" name="baseUrl" id="baseUrl" class="hidden" />
+                <!-- <a class="copy">Salin Link</a> -->
+            </div>
+
+            <!-- form copy -->
+
+            <!-- receiver -->
+            <input type="text" name="r" class="receiverCopy hidden" style="margin-top: 20px" />
+            <!-- message -->
+            <input type="text" name="m" class="messageCopy hidden" />
+            <!-- sender -->
+            <input type="text" name="s" class="senderCopy hidden" />
+            <!-- submit -->
+            <button type="submit" id="copy" class="copy">Buat Link</button>
+            <input
+                type="url"
+                id="url-copy"
+                placeholder="Salin Link dan bagikan kepada orang terkasih"
+            />
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="text">
+                <p>Created by @<a href="">David</a></p>
+            </div>
+        </footer>
+        <!-- javascript -->
+        <script src="src/js/script-system.js"></script>
+    </body>
+</html>
