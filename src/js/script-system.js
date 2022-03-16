@@ -21,6 +21,6 @@ lihatHasil.addEventListener("click", () => {
 });
 
 function makeURL(r, m, s) {
-    const URL = `file:///E:/RPL/Web%20Develompent/Github/valentine/valentineDayCard/xatemp.html?r=${r}&m=${m}&s=${s}`; // ganti manual klok udh di github, jangan lupa
+    const URL = `https://laulooo.github.io/valenCard/xatemp.html?r=${r}&m=${m}&s=${s}`; // ganti manual klok udh di github, jangan lupa
     return URL;
 }
