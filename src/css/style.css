@@ -1,6 +1,6 @@
 /* css */
 body {
-    font-family: quicksandregular;
+    font-family: bakso_sapiregular;
     background-image: url(../img/19406492.jpg);
     background-size: clamp(768px, 100vw, 100vw) 100%;
     background-repeat: no-repeat;
@@ -15,8 +15,9 @@ h1 {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bolder;
-    color: white;
-    text-shadow: 2px 3px 4px black;
+    color: #74c5c6;
+    font-family: "bakso_sapiregular";
+    text-shadow: 2px 3px 3px white;
 }
 .container {
     padding: 25px 20px 50px 20px;
@@ -32,18 +33,20 @@ h1 {
 }
 .form label {
     color: white;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 0px 1.5px 3px black;
     font-weight: bold;
     margin: 20px 0 5px 0;
 }
 .form input,
 .form textarea {
-    border: rgb(252, 116, 139) 2px solid;
+    border: rgb(255 161 177) 2px solid;
     border-radius: 5px;
+    box-shadow: 0 0 15px #ffb9c2f2;
+    /* border: none; */
 }
 .form p {
     color: white;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 0px 1.5px 3px black;
 }
 button.submit,
 button.copy {
@@ -86,10 +89,11 @@ input.hidden {
 #url-copy {
     width: 100%;
     max-width: 317.88px;
-    border: rgb(252, 116, 139) 2px solid;
+    border: rgb(255 161 177) 2px solid;
     border-radius: 5px;
     height: 30px;
     text-align: center;
+    box-shadow: 0 0 15px #ffb9c2f2;
 }
 /* footer */
 footer {
@@ -105,6 +109,7 @@ footer {
 
 footer p {
     font-weight: bold;
+    font-family: futuramedium;
 }
 
 footer a {
